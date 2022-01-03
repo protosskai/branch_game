@@ -1,0 +1,22 @@
+[
+  {
+    "name": "start#0",
+    "text": "初始关卡",
+    "next": ["start#1", "start#2"]
+  },
+  {
+    "name": "start#1",
+    "text": "选项一",
+    "next": ["start#3"]
+  },
+  {
+    "name": "start#2",
+    "text": "选项二",
+    "next": ["start#3"]
+  },
+  {
+    "name": "start#3",
+    "text": "结束关卡",
+    "next": []
+  }
+]
